@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Work Buddy Assistant</title>
+</head>
+<body>
+    <h1>Work Buddy Assistant</h1>
+
+    <h2>Salary Calculator</h2>
+    <form action="/salary" method="post">
+        Hours: <input type="number" name="hours"><br>
+        Rate (R): <input type="number" name="rate"><br>
+        Period: 
+        <select name="period">
+            <option value="hourly">Hourly</option>
+            <option value="daily">Daily</option>
+            <option value="weekly">Weekly</option>
+            <option value="monthly">Monthly</option>
+            <option value="annual">Annual</option>
+        </select><br>
+        <input type="submit" value="Calculate">
+    </form>
+
+    <h2>Notice Board</h2>
+    <form action="/messages" method="post">
+        Manager: <input type="text" name="manager"><br>
+        Message: <input type="text" name="message"><br>
+        <input type="submit" value="Post Message">
+    </form>
+    <a href="/messages">View Messages</a>
+
+    <h2>Tax Info</h2>
+    <a href="/tax">View SARS Tax Info</a>
+
+    <h2>Labour Info</h2>
+    <a href="/labour">View Labour Info</a>
+</body>
+</html>
