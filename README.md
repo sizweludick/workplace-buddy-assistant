@@ -40,3 +40,25 @@ Built as part of the Microsoft Founderz 90‑minute build challenge.
 ## Demo Instructions
 1. Clone repo
 2. Install dependencies:
+3. Run app:
+4. Open in browser: http://127.0.0.1:5000/ (127.0.0.1 in Bing)
+
+
+---
+
+## Demo Screenshots
+![Salary Calculator](screenshots/salary.png)
+![Tax Info](screenshots/tax.png)
+![Labour Info](screenshots/labour.png)
+![Notice Board](screenshots/messages.png)
+
+---
+
+## Future Improvements
+- Add Teams/Slack integration for messaging
+- Expand salary calculator with overtime and deductions
+- Build a richer web dashboard UI
+- Store cached tax/labour info in a database
+
+
+ 
